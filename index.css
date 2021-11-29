@@ -1,0 +1,47 @@
+
+html, body {
+    margin: 50px;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+.color-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.color-container > div {
+    height: 50px;
+    width: 50px;
+    
+    border: 1px solid black;
+}
+
+div#purple {
+    background-color: rebeccapurple;
+}
+
+div#green {
+    background-color: forestgreen;
+}
+
+div#blue {
+    background-color: blue;
+}
+
+div#red {
+    background-color: firebrick;
+}
+
+div#white {
+    background-color: white;
+}
+
